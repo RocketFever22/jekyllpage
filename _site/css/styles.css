@@ -1,5 +1,21 @@
-body { font-family: sans-serif; font-weight: lighter; margin: 0; }
+body {
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 0; }
 
-h1, h2 { text-align: center; margin: 0; font-weight: 400; }
+h1, h2 {
+  text-align: center;
+  margin: 0;
+  font-weight: 400; }
 
-h1 { background-color: #d70808cc; color: white; line-height: 6vw; font-size: 5vw; }
+h1 {
+  background-color: #d70808cc;
+  color: white;
+  line-height: 6vw;
+  font-size: 5vw; }
+
+.margin-bottom {
+  margin-bottom: 25vh; }
+
+.center-align {
+  text-align: center; }
