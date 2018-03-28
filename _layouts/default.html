@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="{{ config.baseurl }}/css/styles.css">
         <title>{{site.name}}</title>
     </head>
     <body>
         <nav>
-            <a href="{% link index.md %}">Home</a>
-            <a href="{% link about.html %}">About</a>
-            <a href="{% link contents.md %}">ToC</a>
+            <a href="{{ config.baseurl }}{% link index.md %}">Home</a>
+            <a href="{{ config.baseurl }}{% link about.html %}">About</a>
+            <a href="{{ config.baseurl }}{% link contents.md %}">ToC</a>
         </nav>
         {{ content }}
-        <script src="js/index.js"></script>
+        <script src="{{ config.baseurl }}/js/index.js"></script>
     </body>
 </html>
