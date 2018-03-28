@@ -5,6 +5,12 @@
         <title>{{site.name}}</title>
     </head>
     <body>
+        <nav>
+            <a href="{% link index.md %}">Home</a>
+            <a href="{% link about.html %}">About</a>
+            <a href="{% link contents.md %}">ToC</a>
+        </nav>
         {{ content }}
+        <script src="js/index.js"></script>
     </body>
 </html>
