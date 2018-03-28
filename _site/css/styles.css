@@ -1,2 +1,16 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin: 0; }
+
+h1, h2 {
+  margin: 0;
+  font-weight: 400; }
+
 h1 {
-  color: #f712f0; }
+  background-color: #d70808cc;
+  color: white;
+  line-height: 6vw;
+  font-size: 5vw;
+  margin-bottom: 25vh; }

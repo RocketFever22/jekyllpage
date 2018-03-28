@@ -7,8 +7,6 @@ layout: default
 ## {{ page.title }}
 
 
-El contenido se escribe en [Markdown](https://google.com). Asi vemos el **content**.
+This site content is in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet){:target="_blank"}.
 
 <!-- Tambien hay html tags en Markdown -->
-<form>
-<input type="text" placeholder="An HTML text file"></form>
