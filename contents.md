@@ -1,7 +1,7 @@
 ---
 title: TABLE OF CONTENTS
 layout: default
-permalink: contents
+permalink: /contents
 ---
 
 # {{page.title}}
