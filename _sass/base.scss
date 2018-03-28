@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
     font-weight:lighter;
     margin:0;
-    background-image: url('/assets/Jekyll_Logo.png');
+    background-image: url($baseurl + '/assets/Jekyll_Logo.png');
     background-repeat: no-repeat;
     background-position:bottom right;
     background-attachment: fixed;
